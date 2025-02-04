@@ -1,6 +1,6 @@
 This is a flash card project that tests if User knows a list French words.
 
-Input - a excel list of french word and their english word counterpart.
+Input - a excel list of french words and their english word counterpart.
 
 When  user runs program for first time, the input excel is loaded into a word list using Pandas. A French word is randomly picked from this list. Using Tkinter, the word is displayed on screen for 4 seconds and then 'flipped' to display the English word.
 
