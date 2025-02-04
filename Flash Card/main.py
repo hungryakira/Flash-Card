@@ -27,6 +27,7 @@ else:
 #[{'French': 'partie', 'English': 'part'}, {'French': 'histoire', 'English': 'history'}]
 
 #-----------------------functions--------------------#
+
 #New word is picked from the list word_dict. Update UI to show French word. After 4 sec, card is 'flipped'
 def pick_word():
     global current_card, timer, word_dict
@@ -39,8 +40,6 @@ def pick_word():
     timer = window.after(4000, flip_card)
 
 #Function to update UI to show the English counterpart
-#-----------------------functions--------------------#
-
 def flip_card():
     global current_card
     canvas.itemconfig(card_face, image = img_card_back)
